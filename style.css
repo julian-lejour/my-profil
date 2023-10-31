@@ -1,0 +1,56 @@
+body {
+background: #E4F1FF;
+color: black;
+font-family: ARIAL;
+font-size: 17px;
+font-weight: white;
+}
+h1 {
+	font-family: serif;
+}
+h2 {
+	font-family: Roboto;
+}
+
+
+
+
+.img-circle {
+	border-radius: 50%;
+}
+
+div {
+	background: #EBF5FB;
+	border: 2px solid black;
+	margin: 7px;
+	border-radius: 8px;
+}
+
+
+.container {
+	width: 700px;
+	margin:40px auto;
+}
+.card-white {
+	background-color: #D6EAF8  ;
+	paddin:40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin: 7px ;
+	text-align: center;
+}
+.btn-blue:hover {
+	background-color: blue;
+	color: white;
+}
+
+@media (max-width: 760px) {
+	.conainer {
+		width: 600px;
+	}
+}
+@media (max-width: 500px) {
+.container {
+	width: 400px;
+    }
+}
